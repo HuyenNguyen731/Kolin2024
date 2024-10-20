@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Link Slick's CSS -->
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #141414;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #eee;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container-1200 {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* swiper slider */
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-pagination-bullet,
+      .swiper-pagination-bullet {
+        width: 25px;
+        height: 6px;
+        border-radius: 6px;
+        background: #eee;
+        opacity: 0.9;
+      }
+
+      .swiper-pagination-bullet-active {
+        background: rgb(196, 34, 34);
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #eee;
+        width: 30px;
+        height: 30px;
+      }
+
+      .swiper-button-next {
+        right: -8px;
+      }
+
+      .swiper-button-prev {
+        left: -8px;
+      }
+
+      .swiper-button-next:after,
+      .swiper-button-prev:after {
+        font-size: 24px;
+      }
+
+      /* .slick-slide  */
+      .slick-slide {
+        transform: scale(0.85);
+        transition: all 0.4s ease-in-out;
+        padding: 40px 0;
+      }
+
+      .slick-center {
+        transform: scale(1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="home-page">
+      <!-- BANNER SLIDER -->
+      <div class="banner-slider">
+        <div class="swiper swiperBanner pb-12">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="block">
+                <img
+                  class="block w-full h-full object-cover"
+                  src="./img/home-page/slide-01.png"
+                  alt="slide-01"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="block">
+                <img
+                  class="block w-full h-full object-cover"
+                  src="./img/home-page/slide-02.png"
+                  alt="slide-02"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="block">
+                <img
+                  class="block w-full h-full object-cover"
+                  src="./img/home-page/slide-03.png"
+                  alt="slide-03"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="block">
+                <img
+                  class="block w-full h-full object-cover"
+                  src="./img/home-page/slide-04.png"
+                  alt="slide-04"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="block">
+                <img
+                  class="block w-full h-full object-cover"
+                  src="./img/home-page/slide-05.png"
+                  alt="slide-05"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!-- KOLIN ACADEMY -->
+      <div class="container-1200 mt-12 lg:px-0 px-4">
+        <div class="flex lg:flex-row flex-col gap-8 gap-x-8">
+          <div class="flex-1">
+            <iframe
+              class="w-full aspect-[4/2.3] rounded-lg border border-stone-800"
+              src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="flex-1">
+            <h1 class="text-3xl lg:text-5xl text-red-700 font-semibold">
+              KOLIN ACADEMY
+            </h1>
+            <p class="text-lg font-semibold mt-3 mb-8">
+              Tiền thân là học viện Nik Academy, Nay là Học Viện Đào Tạo KOL’s
+              Kolin Academy
+            </p>
+            <p class="text-base mb-8">
+              Với hơn 8000 học viên đã qua đào tạo đến từ khắp 3 miền trên tổ
+              quốc, Kolin Academy tự hào là đơn vị dẫn đầu về đào tạo xây dựng
+              thương hiệu cá nhân, giúp cho rất nhiều học viên, doanh nghiệp, tổ
+              chức tìm ra được hình thức marketing mới thay thế cho tư duy
+              marketing doanh nghiệp cũ, từ đó đem lại hiệu quả cực kì cao trong
+              hệ thông kinh doanh của các cá nhân, doanh nghiệp
+            </p>
+            <a
+              href="#"
+              class="bg-white hover:bg-gray-100 text-red-800 font-bold py-3 px-8 text-base rounded"
+            >
+              Xem chi tiết
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KHÓA HỌC TẠI KOLIN -->
+      <div class="container-1200 lg:py-40 py-20 lg:px-0 px-4">
+        <div class="course-title">
+          <h2 class="text-3xl lg:text-[54px] font-semibold text-center">
+            KHÓA HỌC TẠI <span class="text-red-700">KOLIN</span>
+          </h2>
+          <p class="text-xl lg:text-2xl mt-6 text-center lg:px-20 px-0">
+            Kolin Academy là đơn vị cung cấp giải pháp, định hướng xây dựng
+            thương hiệu cá nhân cho các cá nhân, đội nhóm, doanh nghiệp
+          </p>
+        </div>
+
+        <div class="course-online lg:py-28 py-10">
+          <div class="grid lg:grid-cols-3 grid-cols-1 gap-4">
+            <!-- grid item -->
+            <div>
+              <h3 class="text-2xl lg:text-[40px] text-red-700 font-semibold">
+                KHÓA HỌC ONLINE
+              </h3>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO: THẦN THÁI KHÍ CHẤT
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                      exercitationem praesentium nihil.
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO : POSE ONLINE - Khóa học tạo dáng, chụp hình
+                    bằng Smartphone
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia, Lorem isum dolor sit amet, consectetur
+                      adipisicing elit. Voluptatibus quia, Lorem isum dolor sit
+                      amet, consectetur adipisicing elit. Voluptatibus quia,
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia,
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-online">
+          <div class="grid lg:grid-cols-3 grid-cols-1 gap-4">
+            <!-- grid item -->
+            <div>
+              <h3 class="text-2xl lg:text-[40px] text-red-700 font-semibold">
+                KHÓA HỌC ONLINE
+              </h3>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO: LIVESTREAM MASTER - KHOÁ HỌC LIVESTREAM THỰC
+                    CHIẾN SỐ 1
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                      exercitationem praesentium nihil.
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO: Thần thái khí chất
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia,
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO: TIKMASTER: Bùng nổ thương hiệu và doanh số
+                    Tiktok
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO: PERSONAL BRAND PRO - XÂY DỰNG THCN CHUYÊN
+                    NGHIỆP
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia, Lorem isum dolor sit amet, consectetur
+                      adipisicing elit.
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- grid item -->
+            <div class="mb-2">
+              <div
+                class="max-w-sm rounded-xl overflow-hidden bg-white p-2 h-full"
+              >
+                <img
+                  class="w-full rounded-xl h-[160px]"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="p-2">
+                  <div
+                    class="font-bold text-xl mb-4 text-gray-900 font-semibold line-clamp-3 h-[80px]"
+                  >
+                    KHÓA ĐÀO TẠO: POSE - HỌC TẠO DÁNG CHỤP ẢNH BẰNG SMARTPHONE
+                  </div>
+                  <div class="h-[124px]">
+                    <div class="text-gray-900 text-base mb-1">
+                      Mô tả khóa học
+                    </div>
+                    <div class="text-gray-700 text-base line-clamp-4">
+                      Lorem isum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatibus quia
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+                <div class="pt-4 pb-4 ml-1">
+                  <a
+                    href="#"
+                    class="inline-block color-white hover:bg-red-900 bg-red-800 font-bold py-3 px-8 text-lg rounded-lg"
+                  >
+                    TÌM HIỂU THÊM
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SỰ KIỆN KOLIN ACADEMY -->
+      <div class="bg-[url('/img/home-page/bg-event.png')]">
+        <div class="container-1200 py-16">
+          <h2 class="text-3xl lg:text-[54px] font-semibold text-center mb-14">
+            SỰ KIỆN KOLIN ACADEMY
+          </h2>
+
+          <div class="grid lg:grid-cols-5 grid-cols-1 gap-4">
+            <div class="col-span-3 pr-4">
+              <!-- item -->
+              <div class="relative mb-3 min-h-[123px] flex items-center">
+                <div
+                  class="absolute inset-0 bg-white border border-gray-300 rounded-lg opacity-20"
+                ></div>
+                <div class="absolute right-0 top-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <div
+                  class="p-4 relative z-10 text-gray-50 text-xl lg:text-2xl font-semibold"
+                >
+                  NHÌN LẠI SỰ KIỆN LIVESTREAM "CHỢ PHIÊN OCOP - VỀ MIỀN ĐẤT TỔ"
+                  CÙNG KOLIN x BỘ NÔNG NGHIỆP x TIKTOK
+                </div>
+                <div class="absolute bottom-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="relative mb-3 min-h-[123px] flex items-center">
+                <div
+                  class="absolute inset-0 bg-white border border-gray-300 rounded-lg opacity-20"
+                ></div>
+                <div class="absolute right-0 top-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <div
+                  class="p-4 relative z-10 text-gray-50 text-xl lg:text-2xl font-semibold"
+                >
+                  NHÌN LẠI SỰ KIỆN HOT NHẤT VỀ LIVESTREAM - WORKSHOP LIVESTREAM
+                  MASTER CỦA KOLIN
+                </div>
+                <div class="absolute bottom-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="relative mb-3 min-h-[123px] flex items-center">
+                <div
+                  class="absolute inset-0 bg-white border border-gray-300 rounded-lg opacity-20"
+                ></div>
+                <div class="absolute right-0 top-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <div
+                  class="p-4 relative z-10 text-gray-50 text-xl lg:text-2xl font-semibold uppercase"
+                >
+                  “Chợ phiên OCOP về miền đất Tổ” đưa nông sản Phú Thọ lên sàn
+                  thương mại điện tử | VTC16
+                </div>
+                <div class="absolute bottom-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="relative mb-3 min-h-[123px] flex items-center">
+                <div
+                  class="absolute inset-0 bg-white border border-gray-300 rounded-lg opacity-20"
+                ></div>
+                <div class="absolute right-0 top-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <div
+                  class="p-4 relative z-10 text-gray-50 text-xl lg:text-2xl font-semibold uppercase"
+                >
+                  SỰ KIỆN LIVESTREAM "CHỢ PHIÊN OCOP - VỀ MIỀN ĐẤT TỔ" THỰC HIỆN
+                  BỞI KOLIN x BỘ NÔNG NGHIỆP x TIKTOK
+                </div>
+                <div class="absolute bottom-[-5px]">
+                  <svg
+                    width="249"
+                    height="10"
+                    viewBox="0 0 249 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      style="mix-blend-mode: color-dodge"
+                      d="M124.341 9.97987C55.5818 9.73439 -0.089179 7.3059 0.000107249 4.55553C0.08645 1.80532 55.8987 -0.225371 124.657 0.0201066C193.42 0.265584 249.086 2.69407 249 5.44444C248.913 8.19481 193.102 10.2255 124.341 9.97987Z"
+                      fill="url(#paint0_radial_15_580)"
+                    />
+                    <defs>
+                      <radialGradient
+                        id="paint0_radial_15_580"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(124.944 4.75848) rotate(91.8506) scale(4.9772 124.492)"
+                      >
+                        <stop stop-color="white" />
+                        <stop offset="1" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-2">
+              <iframe
+                class="w-full aspect-[4/2.5] rounded-lg border border-stone-800"
+                src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                title="VIDEO GIỚI THIỆU: OCOP PHÚ THỌ"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+
+              <p class="text-2xl lg:text-2xl font-semibold mt-3 text-center">
+                VIDEO GIỚI THIỆU: OCOP PHÚ THỌ
+              </p>
+
+              <div
+                class="border border-stone-300 rounded-lg p-4 mt-8 mb-6 relative"
+              >
+                <div
+                  class="text-xl absolute top-[-16px] left-[-8px] bg-[#881f1c] px-2"
+                >
+                  Mô tả:
+                </div>
+                <div class="text-base">
+                  Kolin Academy là đơn vị cung cấp giải pháp, định hướng xây
+                  dựng thương hiệu cá nhân cho các cá nhân, đội nhóm, doanh
+                  nghiệp
+                </div>
+              </div>
+              <div class="text-center">
+                <a
+                  href="#"
+                  class="bg-white hover:bg-gray-100 text-red-800 font-bold py-2 px-8 text-xl rounded inline-block"
+                >
+                  Xem chi tiết
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LÝ DO KHÁCH HÀNG CHỌN VÀ CÂU CHUYỆN THÀNH CÔNG -->
+      <div class="bg-[url('/img/home-page/bg-reason.png')]">
+        <div class="container-1200 py-16">
+          <h2 class="text-3xl lg:text-[54px] font-semibold text-center mb-10">
+            LÝ DO KHÁCH HÀNG CHỌN
+            <span class="text-red-700">KOLIN ACADEMY</span>
+          </h2>
+          <div class="text-4xl text-center">Mô tả</div>
+          <!-- reason -->
+          <div>
+            <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-12 mb-8">
+              <div>
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-8">
+              <div>
+                <iframe
+                  class="w-full aspect-[4/2] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  class="w-full aspect-[4/2] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Câu chuyện -->
+          <div>
+            <h2
+              class="text-3xl lg:text-[54px] font-semibold text-center mt-28 mb-10 text-red-700"
+            >
+              CÂU CHUYỆN THÀNH CÔNG
+            </h2>
+
+            <div class="slider-story">
+              <div class="item">
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="item">
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="item">
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="item">
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="item">
+                <iframe
+                  class="w-full aspect-[4/3] rounded-lg border border-stone-800"
+                  src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CASE STUDY VÀ TRUYỀN THÔNG NÓI VỀ CHÚNG TÔI -->
+      <div class="bg-[url('/img/home-page/bg-case-study.png')]">
+        <div class="container-1200 py-16">
+          <div>
+            <h2 class="text-3xl lg:text-[54px] font-semibold text-center mb-10">
+              CASE STUDY HỌC VIÊN THÀNH CÔNG
+            </h2>
+
+            <div class="swiper swiperCaseStudy p-6 py-12">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                  >
+                    <div class="">
+                      <img
+                        src="./img/home-page/case-study-01.png"
+                        alt="case study 01"
+                        class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                      />
+                    </div>
+                    <div class="text-xl">
+                      Nguyễn Thị A<br />
+                      CEO công ty ABC<br />
+                      Khóa học:<br />
+                      Truyền thông:<br />
+                      Fan page:<br />
+                      Profile cá nhân:<br />
+                      Tiktok<br />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                  >
+                    <div class="">
+                      <img
+                        src="./img/home-page/case-study-01.png"
+                        alt="case study 01"
+                        class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                      />
+                    </div>
+                    <div class="text-xl">
+                      Nguyễn Thị A<br />
+                      CEO công ty ABC<br />
+                      Khóa học:<br />
+                      Truyền thông:<br />
+                      Fan page:<br />
+                      Profile cá nhân:<br />
+                      Tiktok<br />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                  >
+                    <div class="">
+                      <img
+                        src="./img/home-page/case-study-01.png"
+                        alt="case study 01"
+                        class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                      />
+                    </div>
+                    <div class="text-xl">
+                      Nguyễn Thị A<br />
+                      CEO công ty ABC<br />
+                      Khóa học:<br />
+                      Truyền thông:<br />
+                      Fan page:<br />
+                      Profile cá nhân:<br />
+                      Tiktok<br />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                  >
+                    <div class="">
+                      <img
+                        src="./img/home-page/case-study-01.png"
+                        alt="case study 01"
+                        class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                      />
+                    </div>
+                    <div class="text-xl">
+                      Nguyễn Thị A<br />
+                      CEO công ty ABC<br />
+                      Khóa học:<br />
+                      Truyền thông:<br />
+                      Fan page:<br />
+                      Profile cá nhân:<br />
+                      Tiktok<br />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                  >
+                    <div class="">
+                      <img
+                        src="./img/home-page/case-study-01.png"
+                        alt="case study 01"
+                        class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                      />
+                    </div>
+                    <div class="text-xl">
+                      Nguyễn Thị A<br />
+                      CEO công ty ABC<br />
+                      Khóa học:<br />
+                      Truyền thông:<br />
+                      Fan page:<br />
+                      Profile cá nhân:<br />
+                      Tiktok<br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="mt-20">
+            <h2 class="text-3xl lg:text-[54px] font-semibold text-center mb-10">
+              TRUYỀN THÔNG NÓI GÌ VỀ CHÚNG TÔI
+            </h2>
+
+            <div class="swiper swiperAboutUs pb-12">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div
+                    class="max-w-lg bg-white border border-gray-200 rounded-xl p-3"
+                  >
+                    <a href="#">
+                      <img
+                        class="rounded-xl h-[165px] w-[350px] object-cover"
+                        src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="flex justify-between mt-5">
+                      <div>
+                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                          Tiêu đề 1
+                        </h5>
+                        <a href="#" class="text-base text-blue-900 underline">
+                          Xem chi tiết
+                        </a>
+                      </div>
+                      <div>
+                        <p class="mb-3 text-base text-blue-900">Nguồn</p>
+                        <img
+                          class="w-28 h-10 object-cover rounded-lg shadow-lg"
+                          src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="max-w-lg bg-white border border-gray-200 rounded-xl p-3"
+                  >
+                    <a href="#">
+                      <img
+                        class="rounded-xl h-[165px] w-[350px] object-cover"
+                        src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="flex justify-between mt-5">
+                      <div>
+                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                          Tiêu đề 1
+                        </h5>
+                        <a href="#" class="text-base text-blue-900 underline">
+                          Xem chi tiết
+                        </a>
+                      </div>
+                      <div>
+                        <p class="mb-3 text-base text-blue-900">Nguồn</p>
+                        <img
+                          class="w-28 h-10 object-cover rounded-lg shadow-lg"
+                          src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="max-w-lg bg-white border border-gray-200 rounded-xl p-3"
+                  >
+                    <a href="#">
+                      <img
+                        class="rounded-xl h-[165px] w-[350px] object-cover"
+                        src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="flex justify-between mt-5">
+                      <div>
+                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                          Tiêu đề 1
+                        </h5>
+                        <a href="#" class="text-base text-blue-900 underline">
+                          Xem chi tiết
+                        </a>
+                      </div>
+                      <div>
+                        <p class="mb-3 text-base text-blue-900">Nguồn</p>
+                        <img
+                          class="w-28 h-10 object-cover rounded-lg shadow-lg"
+                          src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="max-w-lg bg-white border border-gray-200 rounded-xl p-3"
+                  >
+                    <a href="#">
+                      <img
+                        class="rounded-xl h-[165px] w-[350px] object-cover"
+                        src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="flex justify-between mt-5">
+                      <div>
+                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                          Tiêu đề 1
+                        </h5>
+                        <a href="#" class="text-base text-blue-900 underline">
+                          Xem chi tiết
+                        </a>
+                      </div>
+                      <div>
+                        <p class="mb-3 text-base text-blue-900">Nguồn</p>
+                        <img
+                          class="w-28 h-10 object-cover rounded-lg shadow-lg"
+                          src="https://flowbite.com/docs/images/blog/image-1.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM ĐĂNG KÝ KHÓA HỌC -->
+      <div>
+        <div class="container-1200 py-16">
+          <h2
+            class="text-3xl lg:text-[54px] font-semibold text-center mb-10 text-red-600"
+          >
+            ĐĂNG KÝ NHẬN TƯ VẤN KHÓA HỌC
+          </h2>
+          <div>
+            <form class="w-full bg-white p-12 rounded-lg">
+              <div class="flex flex-wrap -mx-3">
+                <div class="w-full md:w-1/2 px-3">
+                  <div class="relative mb-6">
+                    <div
+                      class="absolute inset-y-0 start-0 flex items-center ps-2 pointer-events-none"
+                    >
+                      <img src="./img/home-page/userIcon.svg" alt="user icon" />
+                    </div>
+                    <input
+                      type="text"
+                      id="input-name"
+                      class="bg-gray-50 border border-gray-400 text-gray-700 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-12 p-2.5"
+                      placeholder="Họ và tên"
+                    />
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                  <div class="relative mb-6">
+                    <div
+                      class="absolute inset-y-0 start-0 flex items-center ps-2 pointer-events-none"
+                    >
+                      <img
+                        src="./img/home-page/phoneIcon.svg"
+                        alt="phone icon"
+                      />
+                    </div>
+                    <input
+                      type="tel"
+                      id="input-phone"
+                      class="bg-gray-50 border border-gray-400 text-gray-700 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-12 p-2.5"
+                      placeholder="Số điện thoại"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3">
+                <div class="w-full md:w-1/2 px-3">
+                  <div class="relative mb-6">
+                    <div
+                      class="absolute inset-y-0 start-0 flex items-center ps-2 pointer-events-none"
+                    >
+                      <img src="./img/home-page/emailIcon.svg" />
+                    </div>
+                    <input
+                      type="email"
+                      id="input-email"
+                      class="bg-gray-50 border border-gray-400 text-gray-700 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-12 p-2.5"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                  <div class="relative mb-6">
+                    <div
+                      class="absolute inset-y-0 start-0 flex items-center ps-2 pointer-events-none"
+                    >
+                      <img src="./img/home-page/locationIcon.svg" />
+                    </div>
+                    <input
+                      type="text"
+                      id="input-location"
+                      class="bg-gray-50 border border-gray-400 text-gray-700 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-12 p-2.5"
+                      placeholder="Tỉnh thành"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-wrap">
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="block p-2.5 w-full text-lg text-gray-900 bg-gray-50 rounded-lg border border-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                  placeholder="Ghi Chú"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button
+                  type="button"
+                  class="text-white text-2xl bg-red-700 hover:bg-blue-800 rounded-lg px-5 py-2.5 me-2 mt-6"
+                >
+                  ĐĂNG KÝ NGAY
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiperBanner", {
+        cssMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        mousewheel: true,
+      });
+
+      var swiper = new Swiper(".swiperAboutUs", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      var swiper = new Swiper(".swiperCaseStudy", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      $(document).ready(function () {
+        $(".slider-story").slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: true,
+          centerPadding: "0",
+        });
+      });
+    </script>
+  </body>
+</html>
