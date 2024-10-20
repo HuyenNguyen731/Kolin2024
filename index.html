@@ -96,6 +96,11 @@
       .slick-center {
         transform: scale(1);
       }
+      @media screen and (max-width: 765px) {
+        .slick-next {
+          right: 0;
+        }
+      }
     </style>
   </head>
 
@@ -505,8 +510,8 @@
             SỰ KIỆN KOLIN ACADEMY
           </h2>
 
-          <div class="grid lg:grid-cols-5 grid-cols-1 gap-4">
-            <div class="col-span-3 pr-4">
+          <div class="grid lg:grid-cols-5 grid-cols-1 gap-4 lg:px-0 px-4">
+            <div class="col-span-1 lg:col-span-3 lg:pr-4 pr-0">
               <!-- item -->
               <div class="relative mb-3 min-h-[123px] flex items-center">
                 <div
@@ -780,7 +785,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-span-2">
+            <div class="col-span-1 lg:col-span-2">
               <iframe
                 class="w-full aspect-[4/2.5] rounded-lg border border-stone-800"
                 src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
@@ -828,9 +833,9 @@
             LÝ DO KHÁCH HÀNG CHỌN
             <span class="text-red-700">KOLIN ACADEMY</span>
           </h2>
-          <div class="text-4xl text-center">Mô tả</div>
+          <div class="text-xl lg:text-4xl text-center">Mô tả</div>
           <!-- reason -->
-          <div>
+          <div class="px-4 lg:px-0">
             <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-12 mb-8">
               <div>
                 <iframe
@@ -866,7 +871,7 @@
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-8">
               <div>
                 <iframe
-                  class="w-full aspect-[4/2] rounded-lg border border-stone-800"
+                  class="w-full aspect-[4/3] lg:aspect-[4/2] rounded-lg border border-stone-800"
                   src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -876,7 +881,7 @@
               </div>
               <div>
                 <iframe
-                  class="w-full aspect-[4/2] rounded-lg border border-stone-800"
+                  class="w-full aspect-[4/3] lg:aspect-[4/2] rounded-lg border border-stone-800"
                   src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -890,11 +895,10 @@
           <!-- Câu chuyện -->
           <div>
             <h2
-              class="text-3xl lg:text-[54px] font-semibold text-center mt-28 mb-10 text-red-700"
+              class="text-3xl lg:text-[54px] font-semibold text-center mt-10 mb-4 lg:mt-28 lg:mb-10 text-red-700"
             >
               CÂU CHUYỆN THÀNH CÔNG
             </h2>
-
             <div class="slider-story">
               <div class="item">
                 <iframe
@@ -959,20 +963,20 @@
               CASE STUDY HỌC VIÊN THÀNH CÔNG
             </h2>
 
-            <div class="swiper swiperCaseStudy p-6 py-12">
+            <div class="swiper swiperCaseStudy p-3 lg:p-6 py-6 lg:py-12">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div
-                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-30"
                   >
-                    <div class="">
+                    <div>
                       <img
                         src="./img/home-page/case-study-01.png"
                         alt="case study 01"
                         class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
                       />
                     </div>
-                    <div class="text-xl">
+                    <div class="text-lg">
                       Nguyễn Thị A<br />
                       CEO công ty ABC<br />
                       Khóa học:<br />
@@ -985,16 +989,16 @@
                 </div>
                 <div class="swiper-slide">
                   <div
-                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-30"
                   >
-                    <div class="">
+                    <div>
                       <img
                         src="./img/home-page/case-study-01.png"
                         alt="case study 01"
                         class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
                       />
                     </div>
-                    <div class="text-xl">
+                    <div class="text-lg">
                       Nguyễn Thị A<br />
                       CEO công ty ABC<br />
                       Khóa học:<br />
@@ -1007,16 +1011,38 @@
                 </div>
                 <div class="swiper-slide">
                   <div
-                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                  class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-30"
+                >
+                  <div>
+                    <img
+                      src="./img/home-page/case-study-01.png"
+                      alt="case study 01"
+                      class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                    />
+                  </div>
+                  <div class="text-lg">
+                    Nguyễn Thị A<br />
+                    CEO công ty ABC<br />
+                    Khóa học:<br />
+                    Truyền thông:<br />
+                    Fan page:<br />
+                    Profile cá nhân:<br />
+                    Tiktok<br />
+                  </div>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-30"
                   >
-                    <div class="">
+                    <div>
                       <img
                         src="./img/home-page/case-study-01.png"
                         alt="case study 01"
                         class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
                       />
                     </div>
-                    <div class="text-xl">
+                    <div class="text-lg">
                       Nguyễn Thị A<br />
                       CEO công ty ABC<br />
                       Khóa học:<br />
@@ -1029,38 +1055,16 @@
                 </div>
                 <div class="swiper-slide">
                   <div
-                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
+                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-30"
                   >
-                    <div class="">
+                    <div>
                       <img
                         src="./img/home-page/case-study-01.png"
                         alt="case study 01"
                         class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
                       />
                     </div>
-                    <div class="text-xl">
-                      Nguyễn Thị A<br />
-                      CEO công ty ABC<br />
-                      Khóa học:<br />
-                      Truyền thông:<br />
-                      Fan page:<br />
-                      Profile cá nhân:<br />
-                      Tiktok<br />
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div
-                    class="flex flex-1 rounded-xl border border-stone-300 p-3 gap-4"
-                  >
-                    <div class="">
-                      <img
-                        src="./img/home-page/case-study-01.png"
-                        alt="case study 01"
-                        class="w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
-                      />
-                    </div>
-                    <div class="text-xl">
+                    <div class="text-lg">
                       Nguyễn Thị A<br />
                       CEO công ty ABC<br />
                       Khóa học:<br />
@@ -1083,7 +1087,7 @@
               TRUYỀN THÔNG NÓI GÌ VỀ CHÚNG TÔI
             </h2>
 
-            <div class="swiper swiperAboutUs pb-12">
+            <div class="swiper swiperAboutUs pb-12 lg:px-0 px-4">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div
@@ -1091,7 +1095,7 @@
                   >
                     <a href="#">
                       <img
-                        class="rounded-xl h-[165px] w-[350px] object-cover"
+                        class="rounded-xl h-[165px] w-full object-cover"
                         src="https://flowbite.com/docs/images/blog/image-1.jpg"
                         alt=""
                       />
@@ -1129,7 +1133,9 @@
                     </a>
                     <div class="flex justify-between mt-5">
                       <div>
-                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                        <h5
+                          class="mb-2 text-xl font-bold text-gray-900 line-clamp-1"
+                        >
                           Tiêu đề 1
                         </h5>
                         <a href="#" class="text-base text-blue-900 underline">
@@ -1160,7 +1166,9 @@
                     </a>
                     <div class="flex justify-between mt-5">
                       <div>
-                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                        <h5
+                          class="mb-2 text-xl font-bold text-gray-900 line-clamp-1"
+                        >
                           Tiêu đề 1
                         </h5>
                         <a href="#" class="text-base text-blue-900 underline">
@@ -1191,7 +1199,9 @@
                     </a>
                     <div class="flex justify-between mt-5">
                       <div>
-                        <h5 class="mb-2 text-xl font-bold text-gray-900">
+                        <h5
+                          class="mb-2 text-xl font-bold text-gray-900 line-clamp-1"
+                        >
                           Tiêu đề 1
                         </h5>
                         <a href="#" class="text-base text-blue-900 underline">
@@ -1331,16 +1341,22 @@
       });
 
       var swiper = new Swiper(".swiperAboutUs", {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+        },
       });
 
       var swiper = new Swiper(".swiperCaseStudy", {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
@@ -1349,6 +1365,11 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+          },
         },
       });
 
@@ -1360,6 +1381,17 @@
           infinite: true,
           centerMode: true,
           centerPadding: "0",
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false,
+                arrows: true,
+              },
+            },
+          ],
         });
       });
     </script>
