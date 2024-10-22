@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #141414;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #eee;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container-1200 {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pose-project">
+      <!-- BANNRER -->
+      <div class="banner">
+        <img
+          class="block w-full h-full object-cover"
+          src="./img/home-page/slide-01.png"
+          alt="khoa hoc pose"
+        />
+      </div>
+
+      <!-- GIOI THIEU KHOA HOC -->
+      <div class="container-1200 py-12 lg:py-28">
+        <div class="text-center mb-6 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+            GIỚI THIỆU KHOÁ HỌC
+          </h3>
+          <div class="w-[243px] h-1 bg-red-700 mx-auto"></div>
+        </div>
+        <div class="video px-4 lg:px-10">
+          <iframe
+            class="w-full aspect-[4/2] rounded-lg border border-stone-800"
+            src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- BẠN SẼ NHẬN ĐƯỢC GÌ KHI THAM DỰ KHÓA HỌC -->
+      <div class="container-1200 px-4 lg:px-0">
+        <div class="text-center mb-6 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+            BẠN SẼ NHẬN ĐƯỢC GÌ KHI
+            <span class="text-red-700">THAM DỰ KHÓA HỌC</span>
+          </h3>
+          <div class="w-[243px] h-1 bg-red-700 mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-gray-800">
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            1. POSE: Được chỉ dạy tận tình các dáng chụp hình, từ chụp selfie
+            đến chụp với các phong cách style khác nhau từ ngây thơ, khoẻ khoắn,
+            quyền lực đến sexy gợi cảm
+          </div>
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            2. Các kĩ thuật chụp hình, căn chọn góc máy cơ bản nhất
+          </div>
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            3. Hướng dẫn sửa, chỉnh màu ảnh trên smartphone
+          </div>
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            4. Được add vào group hỗ trợ hướng dẫn online sau khoá học
+          </div>
+        </div>
+      </div>
+
+      <!-- ĐÂY LÀ KHÓA HỌC DÀNH CHO -->
+      <div class="container-1200 py-12 lg:py-28 px-4 lg:px-0">
+        <div class="text-center mb-6 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+            ĐÂY LÀ <span class="text-red-700">KHÓA HỌC</span> DÀNH CHO
+          </h3>
+          <div class="w-[243px] h-1 bg-red-700 mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-gray-800">
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Các bạn chưa biết tạo dáng chụp hình sao cho tự nhiên, thu hút, muốn
+            có những hình đẹp
+          </div>
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Các bạn sắp hoặc đang mở shop thời trang, kinh doanh online cần học
+            cách chụp ảnh đẹp để bán được nhiều hàng
+          </div>
+          <div
+            class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Các bạn mục tiêu muốn trở thành mẫu freelancer chụp lookbook cho các
+            shop thời trang...
+          </div>
+        </div>
+      </div>
+
+      <!-- AI SẼ ĐỒNG HÀNH CÙNG BẠN  -->
+      <div class="bg-[url('/img/home-page/bg-case-study.png')]">
+        <div class="container-1200 pt-12 lg:pt-24 pb-2 lg:pb-10 px-4 lg:px-0">
+          <div class="text-center">
+            <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+              AI SẼ ĐỒNG HÀNH CÙNG BẠN
+            </h3>
+            <div class="w-[243px] h-1 bg-white mx-auto"></div>
+          </div>
+
+          <div
+            class="flex flex-col lg:flex-row gap-10 lg:gap-20 my-12 lg:my-28 items-center lg:items-end"
+          >
+            <div>
+              <img
+                class="rounded-xl object-cover w-[325px] lg:w-[492px]"
+                src="./img/course/person-01.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 text-2xl lg:text-[40px]">
+              <div class="uppercase font-semibold pb-8 lg:pb-16">
+                ● Founder Kolin Academy
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-16">
+                ● TGD Venus’ secret
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-16">
+                ● Tiktoker 2m5 follower
+              </div>
+              <div class="text-2xl lg:text-[40px] my-4 lg:my-10 font-medium">
+                Follower
+              </div>
+              <div class="flex justify-between">
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/facebookIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>500K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/tiktokIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>32K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/instaIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>2.5M</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col lg:flex-row gap-10 lg:gap-20 py-12 lg:py-16 items-center lg:items-end"
+          >
+            <div>
+              <img
+                class="rounded-xl object-cover w-[325px] lg:w-[492px]"
+                src="./img/course/person-02.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 text-2xl lg:text-[32px]">
+              <div class="uppercase font-semibold pb-8 lg:pb-14 leading-10">
+                ● 7 năm kinh nghiệm về thời trangvà kinh doanh thời trang
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-14 leading-10">
+                ● Mẫu ảnh chuyên nghiệp về chụp ,quay Lookbook
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-14 leading-10">
+                ● Hot TikToker 168k followers
+              </div>
+              <div class="text-2xl lg:text-[40px] my-4 lg:my-8 font-medium">
+                Follower
+              </div>
+              <div class="flex justify-between">
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/facebookIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>74K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/tiktokIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>25K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/instaIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>168K</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col lg:flex-row gap-10 lg:gap-20 my-12 lg:my-28 items-center lg:items-end"
+          >
+            <div>
+              <img
+                class="rounded-xl object-cover w-[325px] lg:w-[492px]"
+                src="./img/course/person-03.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 text-xl lg:2xl">
+              <div class="uppercase font-semibold pb-8 lg:pb-12">
+                ● Hoa khôi Đại học Kinh Tế - Tài Chính 2016
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-12">
+                ● 3 năm kinh nghiệm kinh doanh thời trang thiết kế.
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-12">
+                ● 3 năm kinh nghiệm về mẫu ảnh,livestream, đang cộng tác với
+                nhiều brand thời trang: Hnoss, Juno, Marc Fashion, Dottie,…
+              </div>
+              <div class="text-2xl lg:text-[40px] my-4 lg:my-10 font-medium">
+                Follower
+              </div>
+              <div class="flex justify-between">
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/tiktokIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>350K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/instaIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>247K</div>
+                </div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEEDBACK HỌC VIÊN -->
+      <div class="container-1200 py-12 lg:py-28 px-4 lg:px-0">
+        <div class="text-center mb-6 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+            FEEDBACK <span class="text-red-700">HỌC VIÊN</span>
+          </h3>
+          <div class="w-[243px] h-1 bg-red-700 mx-auto"></div>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-6 text-gray-800"
+        >
+          <div>
+            <iframe
+              class="w-full aspect-[4/2.3] rounded-lg border border-stone-800"
+              src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <div
+              class="uppercase text-2xl lg:text-4xl text-white mt-6 text-center font-semibold"
+            >
+              HỌC VIÊN: thảo
+            </div>
+          </div>
+          <div>
+            <iframe
+              class="w-full aspect-[4/2.3] rounded-lg border border-stone-800"
+              src="https://www.youtube.com/embed/yZPCqNncaNQ?si=C87eGcB2Ur0GQcA6"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <div
+              class="uppercase text-2xl lg:text-4xl text-white mt-6 text-center font-semibold"
+            >
+              HỌC VIÊN: thúy uyên
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THÔNG TIN KHÓA HỌC -->
+      <div class="container-1200 pb-6 lg:pb-12 lg:pb-28 px-4 lg:px-0">
+        <h3
+          class="text-3xl lg:text-5xl font-semibold mb-6 lg:mb-10 text-red-700 text-center"
+        >
+          THÔNG TIN KHÓA HỌC
+        </h3>
+        <div
+          class="flex justify-between lg:flex-row gap-4 flex-col rounded-lg bg-red-900 text-2xl py-4 px-6"
+        >
+          <div>Hình thức học: Offline</div>
+          <div>Số buổi: 4 buổi (2 ngày)</div>
+          <div>Thời gian: 9h30 - 16h30 học liền</div>
+        </div>
+
+        <div>
+          <div class="flex gap-3 mt-6 justify-center">
+            <div class="w-16 lg:w-auto">
+              <img src="./img/course/location.svg" alt="location icon" />
+            </div>
+            <div class="text-xl lg:text-2xl">
+              Học viện đào tạo Kol & Influencer KOLIN . Tầng 4 - 110 Nguyễn Hy
+              Quang - Đống Đa - Hà Nội
+            </div>
+          </div>
+          <div class="flex gap-3 mt-6 justify-center">
+            <div class="w-16 lg:w-auto">
+              <img src="./img/course/location.svg" alt="location icon" />
+            </div>
+            <div class="text-xl lg:text-2xl">
+              Học viện đào tạo Kol & Influencer KOLIN HCM: 62a Huỳnh Mẫn
+              Đạt,phường 19, Bình Thạnh, HCM
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-gray-800 mt-10">
+          <div class="bg-white rounded-xl min-h-[195px]">
+            <div
+              class="p-4 bg-red-800 rounded-t-xl text-xl lg:text-2xl text-white"
+            >
+              Giảm 10% khi đăng ký 3 người
+            </div>
+            <div class="p-6 pb-8 mt-6">
+              <div class="text-3xl lg:text-[40px] font-semibold text-red-900">
+                5.500.000 VNĐ
+              </div>
+              <a href="" class="block mt-10">
+                <img
+                  src="./img/course/button.png"
+                  alt="Giảm 10% khi đăng ký 3 người "
+                />
+              </a>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl min-h-[195px]">
+            <div
+              class="p-4 bg-red-800 rounded-t-xl text-xl lg:text-2xl text-white"
+            >
+              Giảm 5% khi đăng ký 2 người
+            </div>
+            <div class="p-6 pb-8 mt-6">
+              <div class="text-3xl lg:text-[40px] font-semibold text-red-900">
+                6.000.000 VNĐ
+              </div>
+              <a href="" class="block mt-10">
+                <img
+                  src="./img/course/button.png"
+                  alt="Giảm 5% khi đăng ký 2 người"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl min-h-[195px]">
+            <div
+              class="p-4 bg-red-800 rounded-t-xl text-xl lg:text-2xl text-white"
+            >
+              Gói cá nhân
+            </div>
+            <div class="p-6 pb-8 mt-6">
+              <div class="text-3xl lg:text-[40px] font-semibold text-red-900">
+                6.500.000 VNĐ
+              </div>
+              <a href="" class="block mt-10">
+                <img src="./img/course/button.png" alt="Gói cá nhân" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
