@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #141414;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #eee;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container-1200 {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .swiper-pagination-bullet,
+      .swiper-pagination-bullet {
+        width: 25px;
+        height: 6px;
+        border-radius: 6px;
+        background: #eee;
+        opacity: 0.9;
+      }
+
+      .swiper-pagination-bullet-active {
+        background: rgb(196, 34, 34);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pose-project">
+      <!-- BANNRER -->
+      <div class="banner">
+        <img
+          class="block w-full h-full object-cover"
+          src="./img/home-page/slide-03.png"
+          alt="khoa hoc than thai khi chat"
+        />
+      </div>
+
+      <!-- 5 ĐIỀU CHỈ CÓ TẠI KHÓA HỌC -->
+      <div class="container-1200 px-4 lg:px-0 py-12 lg:py-28">
+        <div class="text-center mb-6 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+            5 ĐIỀU CHỈ CÓ TẠI <span class="text-red-700">KHÓA HỌC</span>
+          </h3>
+          <div class="w-[243px] h-1 bg-red-700 mx-auto"></div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-6 text-gray-800">
+          <div
+            class="w-full lg:w-[380px] bg-white border border-red-700 rounded-xl min-h-[200px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Định hướng lại hình ảnh cá nhân và lựa chọn phong cách phù hợp với
+            ngành nghề, lĩnh vực và cá tính, giúp bạn trở lên xinh đẹp , chuyên
+            nghiệp và tự tin hơn
+          </div>
+          <div
+            class="w-full lg:w-[380px] bg-white border border-red-700 rounded-xl min-h-[200px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Biết cách lựa chọn style ăn mặc, makeup, ngôn ngữ giao tiếp phù hợp
+          </div>
+          <div
+            class="w-full lg:w-[380px] bg-white border border-red-700 rounded-xl min-h-[200px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Điều chỉnh thần thái, phong cách giao tiếp, ngôn ngữ cơ thể, tư thế,
+            dáng đi đứng, thần thái chuẩn mực
+          </div>
+          <div
+            class="w-full lg:w-[380px] bg-white border border-red-700 rounded-xl min-h-[200px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Chỉnh lại các tật xấu như gù lưng, vai úp, mặt đơ, người cứng...
+          </div>
+          <div
+            class="w-full lg:w-[380px] bg-white border border-red-700 rounded-xl min-h-[200px] text-2xl py-3 px-6 grid place-items-center"
+          >
+            Luyện tập phong thái tự tin khi chụp hình, trước ống kính máy quay
+            và trên sân khấu
+          </div>
+        </div>
+      </div>
+
+      <!-- KHÓA HỌC ĐƯỢC THIẾT KẾ PHÙ HỢP VỚI -->
+      <div class="container-1200 pb-10 lg:pb-20 px-4 lg:px-16">
+        <div class="text-center mb-6 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+            KHÓA HỌC ĐƯỢC THIẾT KẾ
+            <span class="text-red-700">PHÙ HỢP VỚI</span>
+          </h3>
+          <div class="w-[243px] h-1 bg-red-700 mx-auto"></div>
+        </div>
+        <div class="">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div
+              class="flex flex-col gap-6 text-xl lg:text-2xl order-2 lg:order-1"
+            >
+              <div class="flex gap-4">
+                <div class="text-2xl lg:text-5xl font-extrabold">01</div>
+                <div>
+                  Những ai đang băn khoăn không biết lựa chọn phong cách, hình
+                  tượng thế nào để phù hợp với bản thân, công việc của mình
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div class="text-2xl lg:text-5xl font-extrabold">02</div>
+                <div>
+                  Phong cách ăn mặc, trang điểm lên xuống thất thường, hay thay
+                  đổi, không ổn định, lúc xấu lúc đẹp
+                </div>
+              </div>
+            </div>
+            <div class="order-1 lg:order-2">
+              <img src="./img/course/intro-01.png" alt="gioi thieu 1" />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
+            <div>
+              <img src="./img/course/intro-02.png" alt="gioi thieu 1" />
+            </div>
+            <div class="flex flex-col gap-12 lg:gap-28 text-xl lg:text-2xl">
+              <div class="flex gap-4">
+                <div class="text-2xl lg:text-5xl font-extrabold">03</div>
+                <div>Chưa làm nổi bật được khí chất và thần thái cá nhân</div>
+              </div>
+              <div class="flex gap-4">
+                <div class="text-2xl lg:text-5xl font-extrabold">04</div>
+                <div>
+                  Chưa biết tạo dáng, đi đứng, ngôn ngữ cơ thể, thần thái tự tin
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NỘI DUNG KHÓA HỌC VÀ GIẢNG VIÊN -->
+      <div class="bg-[url('/img/home-page/bg-case-study.png')]">
+        <div class="container-1200 pt-10 lg:pt-20 pb-2 lg:pb-10 px-4 lg:px-0">
+          <!-- nội dung khóa học -->
+          <div class="mb-10 lg:mb-28">
+            <div class="text-center mb-6 lg:mb-12">
+              <h3 class="text-3xl lg:text-5xl font-semibold mb-4 text-white">
+                NỘI DUNG KHÓA HỌC
+              </h3>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-gray-800">
+              <div
+                class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+              >
+                Các bạn chưa biết tạo dáng chụp hình sao cho tự nhiên, thu hút,
+                muốn có những hình đẹp
+              </div>
+              <div
+                class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+              >
+                Các bạn sắp hoặc đang mở shop thời trang, kinh doanh online cần
+                học cách chụp ảnh đẹp để bán được nhiều hàng
+              </div>
+              <div
+                class="bg-white border border-red-700 rounded-xl min-h-[195px] text-2xl py-3 px-6 grid place-items-center"
+              >
+                Các bạn mục tiêu muốn trở thành mẫu freelancer chụp lookbook cho
+                các shop thời trang...
+              </div>
+            </div>
+          </div>
+
+          <!-- giảng viên -->
+          <div class="text-center">
+            <h3
+              class="text-3xl lg:text-5xl font-semibold mb-4 text-white uppercase"
+            >
+              Giảng viên
+            </h3>
+            <div class="w-[243px] h-1 bg-white mx-auto"></div>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row gap-10 lg:gap-20 my-8 lg:my-16 items-center lg:items-end"
+          >
+            <div>
+              <img
+                class="rounded-xl object-cover w-[325px] lg:w-[492px]"
+                src="./img/course/person-01.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 text-2xl lg:text-[40px]">
+              <div class="uppercase font-semibold pb-8 lg:pb-16">
+                ● Founder Kolin Academy
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-16">
+                ● TGD Venus’ secret
+              </div>
+              <div class="uppercase font-semibold pb-8 lg:pb-16">
+                ● Tiktoker 2m5 follower
+              </div>
+              <div class="text-2xl lg:text-[40px] my-4 lg:my-10 font-medium">
+                Follower
+              </div>
+              <div class="flex justify-between">
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/facebookIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>500K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/tiktokIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>32K</div>
+                </div>
+                <div
+                  class="flex gap-1 lg:gap-3 items-center text-2xl lg:text-[32px]"
+                >
+                  <img
+                    class="inline-block w-8 lg:w-[46px]"
+                    src="./img/course/instaIcon.png"
+                    alt="fb icon"
+                  />
+                  <div>2.5M</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CẢM NHẬN HỌC VIÊN -->
+      <div class="container-1200 py-12 lg:py-28 px-4 lg:px-0">
+        <div class="text-center mb-0 lg:mb-12">
+          <h3 class="text-3xl lg:text-5xl font-semibold text-red-700">
+            CẢM NHẬN HỌC VIÊN
+          </h3>
+        </div>
+        <div class="swiper swiperCaseStudy p-3 lg:p-6 py-8 lg:py-12">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="flex flex-1 flex-col lg:flex-row rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-20"
+              >
+                <div>
+                  <img
+                    src="./img/home-page/case-study-01.png"
+                    alt="case study 01"
+                    class="w-full lg:w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                  />
+                </div>
+                <div class="text-lg">
+                  Nguyễn Thị A<br />
+                  CEO công ty ABC<br />
+                  Khóa học:<br />
+                  Truyền thông:<br />
+                  Fan page:<br />
+                  Profile cá nhân:<br />
+                  Tiktok<br />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-1 flex-col lg:flex-row rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-20"
+              >
+                <div>
+                  <img
+                    src="./img/home-page/case-study-01.png"
+                    alt="case study 01"
+                    class="w-full lg:w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                  />
+                </div>
+                <div class="text-lg">
+                  Nguyễn Thị A<br />
+                  CEO công ty ABC<br />
+                  Khóa học:<br />
+                  Truyền thông:<br />
+                  Fan page:<br />
+                  Profile cá nhân:<br />
+                  Tiktok<br />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-1 flex-col lg:flex-row rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-20"
+              >
+                <div>
+                  <img
+                    src="./img/home-page/case-study-01.png"
+                    alt="case study 01"
+                    class="w-full lg:w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                  />
+                </div>
+                <div class="text-lg">
+                  Nguyễn Thị A<br />
+                  CEO công ty ABC<br />
+                  Khóa học:<br />
+                  Truyền thông:<br />
+                  Fan page:<br />
+                  Profile cá nhân:<br />
+                  Tiktok<br />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-1 flex-col lg:flex-row rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-20"
+              >
+                <div>
+                  <img
+                    src="./img/home-page/case-study-01.png"
+                    alt="case study 01"
+                    class="w-full lg:w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                  />
+                </div>
+                <div class="text-lg">
+                  Nguyễn Thị A<br />
+                  CEO công ty ABC<br />
+                  Khóa học:<br />
+                  Truyền thông:<br />
+                  Fan page:<br />
+                  Profile cá nhân:<br />
+                  Tiktok<br />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-1 flex-col lg:flex-row rounded-xl border border-stone-300 p-3 gap-4 bg-white bg-opacity-20"
+              >
+                <div>
+                  <img
+                    src="./img/home-page/case-study-01.png"
+                    alt="case study 01"
+                    class="w-full lg:w-[300px] h-[310px] rounded-xl border border-stone-300 object-cover"
+                  />
+                </div>
+                <div class="text-lg">
+                  Nguyễn Thị A<br />
+                  CEO công ty ABC<br />
+                  Khóa học:<br />
+                  Truyền thông:<br />
+                  Fan page:<br />
+                  Profile cá nhân:<br />
+                  Tiktok<br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!-- THÔNG TIN KHÓA HỌC -->
+      <div class="container-1200 pb-6 lg:pb-12 lg:pb-28 px-4 lg:px-0">
+        <h3
+          class="text-3xl lg:text-5xl font-semibold mb-6 lg:mb-10 text-red-700 text-center"
+        >
+          THÔNG TIN KHÓA HỌC
+        </h3>
+        <div
+          class="flex justify-between lg:flex-row gap-4 flex-col rounded-lg bg-red-900 text-2xl py-4 px-6"
+        >
+          <div>Hình thức học: Offline</div>
+          <div>Số buổi: 4 buổi (2 ngày)</div>
+          <div>Thời gian: Sáng: 9h30 - 12h, Chiều: 13h30 - 16h30</div>
+        </div>
+
+        <div>
+          <div class="flex gap-3 mt-6 justify-center">
+            <div class="w-16 lg:w-auto">
+              <img src="./img/course/location.svg" alt="location icon" />
+            </div>
+            <div class="text-xl lg:text-2xl">
+              Học viện đào tạo Kol & Influencer KOLIN . Tầng 4 - 110 Nguyễn Hy
+              Quang - Đống Đa - Hà Nội
+            </div>
+          </div>
+          <div class="flex gap-3 mt-6 justify-center">
+            <div class="w-16 lg:w-auto">
+              <img src="./img/course/location.svg" alt="location icon" />
+            </div>
+            <div class="text-xl lg:text-2xl">
+              Học viện đào tạo Kol & Influencer KOLIN HCM: 62a Huỳnh Mẫn
+              Đạt,phường 19, Bình Thạnh, HCM
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-gray-800 mt-10">
+          <div class="bg-white rounded-xl min-h-[195px] text-center">
+            <div
+              class="p-4 bg-red-800 rounded-t-xl text-xl lg:text-2xl text-white"
+            >
+              Giảm 10% khi đăng ký 3 người
+            </div>
+            <div class="p-6 pb-8 mt-6">
+              <div class="text-3xl lg:text-[40px] font-semibold text-red-900">
+                5.500.000 VNĐ
+              </div>
+              <a href="" class="inline-block mt-10">
+                <img
+                  src="./img/course/button.png"
+                  alt="Giảm 10% khi đăng ký 3 người "
+                />
+              </a>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl min-h-[195px] text-center">
+            <div
+              class="p-4 bg-red-800 rounded-t-xl text-xl lg:text-2xl text-white"
+            >
+              Giảm 5% khi đăng ký 2 người
+            </div>
+            <div class="p-6 pb-8 mt-6">
+              <div class="text-3xl lg:text-[40px] font-semibold text-red-900">
+                6.000.000 VNĐ
+              </div>
+              <a href="" class="inline-block mt-10">
+                <img
+                  src="./img/course/button.png"
+                  alt="Giảm 5% khi đăng ký 2 người"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl min-h-[195px] text-center">
+            <div
+              class="p-4 bg-red-800 rounded-t-xl text-xl lg:text-2xl text-white"
+            >
+              Gói cá nhân
+            </div>
+            <div class="p-6 pb-8 mt-6">
+              <div class="text-3xl lg:text-[40px] font-semibold text-red-900">
+                6.500.000 VNĐ
+              </div>
+              <a href="" class="inline-block mt-10">
+                <img src="./img/course/button.png" alt="Gói cá nhân" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiperCaseStudy", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
